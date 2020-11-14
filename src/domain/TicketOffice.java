@@ -26,8 +26,12 @@ public class TicketOffice {
         this.amount -= amount;
     }
 
-    public void plusAmount(Long amount) {
+    private void plusAmount(Long amount) {
         this.amount += amount;
     }
 
+    //TODO: audience와 의존성이 생겨버림
+    public void sellToTicketTo(Audience audience) {
+        plusAmount(audience.buy(getTicket()));
+    }
 }
