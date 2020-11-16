@@ -1,4 +1,4 @@
-package domain;
+package chapter01.domain;
 
 /**
  * 티켓을 표현

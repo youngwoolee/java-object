@@ -1,4 +1,4 @@
-package domain;
+package chapter01.domain;
 
 /**
  * 가방을 표현

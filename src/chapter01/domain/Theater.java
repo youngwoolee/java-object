@@ -1,4 +1,4 @@
-package domain;
+package chapter01.domain;
 
 /**
  * 극장을 표현

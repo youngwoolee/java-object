@@ -1,4 +1,4 @@
-package domain;
+package chapter01.domain;
 
 /**
  * 판매원을 구현

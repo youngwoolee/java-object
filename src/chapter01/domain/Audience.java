@@ -1,4 +1,4 @@
-package domain;
+package chapter01.domain;
 
 /**
  * 관람객을 표현
